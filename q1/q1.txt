@@ -1,0 +1,13 @@
+1. git commit -m "A"
+2. git checkout -b hotfix
+3. git commit -m "B"
+4. git checkout -b develope
+5. git commit -m "E"
+4. git checkout main
+5. git commit -m "C"
+6. git merge hotfix
+7. git commit -m "D"
+8. git branch -d hotfix
+9. git merge develope
+10. git commit -m "F"
+11. git checkout develope
